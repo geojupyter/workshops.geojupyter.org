@@ -1,0 +1,28 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+project:
+  title: "GeoJupyter Workshops"
+  description: "An index of GeoJupyter workshops"
+  github: "geojupyter/workshops.geojupyter.org"
+  license: "MIT"
+  exclude:
+    - "_*"
+    - "README.md"
+  # toc:
+  #   - file: "index.md"
+  #   # TODO: Use URL entries instead, once supported
+  #   # https://github.com/jupyter-book/mystmd/issues/1445
+
+site:
+  template: "book-theme"
+  nav: []
+  actions:
+    - title: "View source"
+      url: "https://github.com/geojupyter/workshops.geojupyter.org"
+  options:
+    folders: true
+    style: "assets/styles/style.css"
+    # favicon: favicon.ico
+    # logo: site_logo.png
+    logo_text: "GeoJupyter workshops"
