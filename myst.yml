@@ -9,10 +9,10 @@ project:
   exclude:
     - "_*"
     - "README.md"
-  # toc:
-  #   - file: "index.md"
-  #   # TODO: Use URL entries instead, once supported
-  #   # https://github.com/jupyter-book/mystmd/issues/1445
+  toc:
+    - file: "index.md"
+    - file: "agu2025.md"
+    - file: "csdms2025.md"
 
 site:
   template: "book-theme"
